@@ -1,0 +1,16 @@
+## Overview
+This Jupyter Notebook contains tasks related to brain anatomy and functional magnetic resonance imaging (fMRI) analysis. It explores topics such as anatomical scans, fMRI data, regressors, and signal fitting.
+
+## Contents
+1. **Task 1**: Brain Anatomy and Voxel Calculation
+   - Calculate the number of voxels in an anatomical scan with specific dimensions and resolution.
+
+2. **Task 2**: fMRI Data Analysis
+   - Answer questions about a 4-D fMRI recording, including the number of scans, voxel count, and datapoints.
+
+3. **Task 3**: BOLD Response Analysis
+   - Utilize the `nilearn.glm.first_level.compute_regressor` function to compute the expected BOLD response for given events.
+
+4. **Task 4**: Regressor Correlations
+   - Construct regressors for conditions 'A' and 'B' based on event onset times, amplitudes, and durations.
+   - Compute correlations of these regressors with a provided signal to determine the best-fitting condition.
