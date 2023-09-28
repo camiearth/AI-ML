@@ -1,31 +1,31 @@
-Principal Component Analysis and Clustering Exercises
+# Principal Component Analysis and Clustering Exercises
 
 
 This repository contains the code for performing Principal Component Analysis (PCA) and clustering on various datasets. 
 Below are the overview of the exercises and how to use the provided code.
 
-1. Principal Component Analysis
+## 1. Principal Component Analysis
 
-1.1.2 Implementing PCA from scratch
+### 1.1.2 Implementing PCA from scratch
 Standardize the variables to have zero mean and unit variance.
 
-1.3 Application to Face Image Data
-1.3.1 Dimensionality Reduction for Face Images
+## 1.3 Application to Face Image Data
+### 1.3.1 Dimensionality Reduction for Face Images
 Load the dataset faces.mat containing 5000 grayscale face images.
 Normalize the dataset to have zero mean.
 Run PCA to obtain principal components.
 Project the face dataset onto the first 100 principal components.
 Recover the data and compare the first 100 reconstructed faces to the original ones.
 
-2. Clustering: Application to Cardiac Data
-2.1 Extracting Features
-2.1.1 Loading and Visualizing Cardiac Data
+## 2. Clustering: Application to Cardiac Data
+### 2.1 Extracting Features
+### 2.1.1 Loading and Visualizing Cardiac Data
 Load the cardiac data from cardiacShapes.mat, including myocardial centerline data and subgroup labels.
 Visualize the myocardial shapes for all subjects.
 Extract relevant features such as curve length, shape area, and curvature.
 Plot features against each other to identify potential data clusters.
-2.2 Clustering
-2.2.1 Implementing K-means Algorithm
+###2.2 Clustering
+###2.2.1 Implementing K-means Algorithm
 Implement the K-means clustering algorithm from scratch.
 Cluster the data into two clusters.
 Evaluate the results using the label data.
