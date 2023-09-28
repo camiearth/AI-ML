@@ -1,4 +1,6 @@
-## Overview
+## fMRI Overview
+## Python
+
 This Jupyter Notebook contains tasks related to brain anatomy and functional magnetic resonance imaging (fMRI) analysis. It explores topics such as anatomical scans, fMRI data, regressors, and signal fitting.
 
 ## Contents
