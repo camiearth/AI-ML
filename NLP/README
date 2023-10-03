@@ -1,0 +1,26 @@
+# Chemistry Chatbot
+# Python
+
+## Overview
+This Python script implements a basic chatbot that can answer questions related to chemistry concepts. It uses the spaCy library for natural language processing and has a predefined knowledge base of chemistry-related questions and answers.
+
+## Prerequisites
+- Python 3.x
+- spaCy library (You can install it using `pip install spacy`)
+- Download the English language model for spaCy (`en_core_web_sm`) if you haven't already.
+
+## Usage
+1. Clone this repository or download the Python script.
+2. Install the required dependencies (spaCy) if not already installed.
+3. Download the spaCy English language model (`en_core_web_sm`) using the following command:
+
+python -m spacy download en_core_web_sm
+
+4. Run the chatbot script by executing the Python file:
+
+python chatbot.py
+
+5. You can interact with the chatbot by typing questions. To exit the chat, simply type "exit."
+
+## License
+This project is licensed under the [MIT License](LICENSE).
