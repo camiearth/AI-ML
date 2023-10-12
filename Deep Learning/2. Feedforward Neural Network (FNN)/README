@@ -1,1 +1,36 @@
+Titanic Survival Prediction
+This repository contains a Python script for predicting the survival of passengers aboard the Titanic using a Feedforward Neural Network (FNN) model. The script includes data loading, preprocessing, feature scaling, model building, and evaluation.
+Script Overview
 
+EDA and Preprocessing: Perform exploratory data analysis (EDA) and data preprocessing, including:
+Checking for missing values in the datasets.
+Replacing missing values with the median.
+Handling empty strings by replacing them with NaN.
+Handling missing values in the 'Embarked' column.
+Replacing missing values in the 'Age' column with the median.
+Dropping unnecessary columns.
+Encoding categorical variables using dummy variables.
+Split and Standardize the Data: Split the data into training and test sets and standardize the features using scikit-learn's StandardScaler.
+
+Build the FNN Model: Build a Feedforward Neural Network (FNN) model using PyTorch. The model includes input, hidden, and output layers.
+Training: Train the FNN model on the training data using binary cross-entropy loss and the Adam optimizer.
+Evaluation of the Model: Evaluate the model's performance using accuracy and calculate the percentage of male and female survivors based on the training data.
+Running the Script
+To run the script, follow these steps:
+Ensure you have Python installed on your system.
+Install the required Python libraries using pip:
+
+pip install numpy pandas matplotlib scikit-learn torch
+Download the Titanic dataset (train.csv and test.csv) and place them in the same directory as the script.
+
+Run the script:
+python titanic_survival_prediction.py
+The script will load the data, preprocess it, build the FNN model, train the model, and provide evaluation results.
+
+Results
+The script prints the accuracy of the FNN model.
+It also calculates and prints the percentage of male and female survivors based on the training data.
+For any additional modifications or customizations, you can refer to the script provided in this repository.
+
+Citation
+Will Cukierski. (2012). Titanic - Machine Learning from Disaster. Kaggle. https://kaggle.com/competitions/titanic
