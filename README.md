@@ -1,4 +1,4 @@
-# AI-ML_Projects
+# AI-ML
 
 Hi there (:
 
