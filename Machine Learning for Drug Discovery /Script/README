@@ -1,1 +1,31 @@
+Introduction
+This project aims to identify potential drug candidates against coronavirus targets by analyzing bioactivity data. The workflow involves fetching target and bioactivity data, preprocessing it, extracting molecular descriptors, and preparing it for machine learning models.
+
+Data Collection
+Target Search: Utilized ChEMBL’s web resource client to search for coronavirus-related targets.
+Bioactivity Data: Retrieved IC50 values for the selected target protein to evaluate drug efficacy.
+Data Preprocessing
+Bioactivity Classification: Classified compounds based on their IC50 values:
+
+Active: IC50 < 1000 nM
+Inactive: IC50 > 10,000 nM
+Intermediate: 1000 nM ≤ IC50 ≤ 10,000 nM
+Normalization: Normalized IC50 values and converted them to pIC50 to ensure a more uniform distribution.
+
+Feature Extraction
+Extracted molecular descriptors using RDKit, including:
+
+Molecular Weight (MW)
+LogP (Partition Coefficient)
+Number of Hydrogen Bond Donors (NumHDonors)
+Number of Hydrogen Bond Acceptors (NumHAcceptors)
+
+## Acknowledgements
+
+This project was inspired by the work of Dr Chanin Nantasenamat and their GitHub repository:
+
+- **Repository Title**: (https://github.com/dataprofessor/code.git)
+- **License**: MIT License
+
+ 
 
